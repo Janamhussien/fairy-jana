@@ -108,3 +108,30 @@ if($balance < $total){
 }
 echo $output;
 ?>
+here is the output as i have a problem in running as i use macOs:
+Products:
+Name: TV, Price: 5000, Quantity: 3
+This product does not expire.
+This product is shippable with weight 4 kg.
+
+Name: Cheese, Price: 200, Quantity: 3
+This product expires.
+This product is shippable with weight 1 kg.
+
+Name: Biscuits, Price: 150, Quantity: 2
+This product expires.
+This product is shippable with weight 1 kg.
+
+Name: Card, Price: 50, Quantity: 5
+This product does not expire.
+This product is not shippable.
+
+2 of Cheese is added to cart.
+1 of Biscuits is added to cart.
+1 of Card is added to cart.
+
+Checkout Summary:
+Subtotal: 600  
+Shipping: 160  
+Total: 760  
+Remaining Balance: 240
